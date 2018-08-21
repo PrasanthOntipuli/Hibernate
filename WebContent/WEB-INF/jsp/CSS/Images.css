@@ -1,0 +1,41 @@
+element {
+    background-image: url("http://bluecrossofindia.org/wp-content/uploads/2017/06/1.jpg");
+    display: none;
+    left: 1353px;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 1353px;
+    top: 0px;
+    z-index: 0;
+    opacity: 1;
+    background-position: 50% 0px;
+}
+.slides-container .slide-item {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+element {
+    list-style: outside none none;
+}
+.header-slider, .owl-wrapper {
+    direction: ltr;
+}
+body {
+    color: #444444;
+}
+body {
+    font-size: 16px;
+}

@@ -1,0 +1,142 @@
+/* buttons CSS */
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #0059b3;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+ .bg {
+    /* The image used */
+    background-image: url("prasanth.JPEG");
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button1 {
+        
+        position: absolute;
+        display: inline-block;
+        margin: .5em;
+        margin-top: 0.5em;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 0.5em;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        background-color:  #0066cc;
+}
+.button2 {
+        
+        position: absolute;
+        display: inline-block;
+        margin: .5em;
+        margin-top: 2.3em;
+        margin-right: 1.5em;
+        margin-bottom: 0.5em;
+        margin-left: 0.5em;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        background-color:  #0066cc;
+}
+.CwaK9 {
+    position: relative;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.blueButton{
+  color: rgb(34, 34, 34);
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  line-height: 14.1667px;
+  position: relative; 
+  white-space: nowrap;
+  border-radius: 9px 9px 9px 9px;
+}
+.EdgeButton--primary {
+    position: relative;
+    background-color: #1da1f2;
+    border: 1px solid#1d90f2;
+    top: 50%;
+    color: #fafafa;
+    padding: 16px;
+    margin-top: -22px;
+    color: unset;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.9s all;
+    border-radius: 9px 9px 9px 9px;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: unset;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.9s all;
+    border-radius: 0 3px 3px 0;
+}
+.cat{
+    width: 128px;
+    height: 128px;
+    margin: 20px 96px 0px 96px;
+    position: relative;
+    float: left;
+    border-radius: 50%;
+    overflow: hidden;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+
+.cat img{
+    position: absolute;
+    border: none;
+    width: 138px;
+    height: 138px;
+    top: -8px;
+    left: -8px;
+    cursor: pointer;
+}
+
+.article-viewer .back-label {
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+
+/* trying to use single display page for multiple Html Views */
+@media print
+{
+      .page-break  { display:block; page-break-before:always; }
+
+}
